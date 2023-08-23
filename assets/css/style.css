@@ -25,6 +25,10 @@ header {
     color: #ffffff;
 }
 
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /* Main content */
 main {
     background-color: #ffffff;
