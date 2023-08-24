@@ -107,7 +107,7 @@ section.headings {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/main-hero-image.jpg") no-repeat center center/cover;
+    background: url("../images/main-hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -133,20 +133,15 @@ section.headings {
 #contact-banner {
     height: 350px;
     width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/contact-us-page-image.jpg") no-repeat top center/cover;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/contact-us-page-banner-image.webp") no-repeat top center/cover;
     position: relative;
 }
 
 #contact-banner-text {
-
     font-size: 130%;
     position: relative;
-
     margin: 0;
-
-    top: 50%;
-    -ms-transform: translateY(-50%);
-
+    top: 55%;
     text-align: center;
 }
 
@@ -156,13 +151,12 @@ section.headings {
 
 }
 
-/* Form */
+/* Form styles */
 #contact {
 
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-
 
 #contact-form {
     color: #000000;
@@ -171,30 +165,23 @@ section.headings {
     margin: 40px 0px 80px;
 }
 
-
-
 .text-input {
     background: transparent;
     color: #020202;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-
     border-radius: 2px;
-
     padding: 1.6rem 2rem;
-
     border: 0.1rem solid #d1d1d1;
     font-size: inherit;
 }
-
 
 .contact-textarea {
     resize: none;
     height: 20rem;
     font-family: inherit;
 }
-
 
 .submit-button {
     margin-top: 20px;
@@ -209,12 +196,18 @@ section.headings {
     color: #ff0f03;
 }
 
-/* Footer */
+/* Gallery styles */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
 
+#photos {
+    line-height: 0;
+}
 
-/* ==========================================================================
-   Footer styles
-   ========================================================================== */
+/* Footer Styles*/
+
 footer {
     bottom: 0;
     width: 100%;
@@ -223,8 +216,6 @@ footer {
     border-color: #eee;
     padding-top: 10px;
 }
-
-
 
 .footer-block {
     text-align: left;
@@ -243,17 +234,6 @@ footer {
     padding-bottom: 20px;
 }
 
-.footer-block img.maps {
-    margin: 2rem 0;
-}
-
-.footer-block p.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
 .footer-links ul {
     margin: 0;
     padding: 0;
@@ -269,18 +249,6 @@ footer {
     text-decoration: none;
 }
 
-.copyright {
-    text-align: center;
-    background: #000000;
-    color: #ffffff;
-    margin: 0;
-    padding: .5rem 0;
-    font-size: 1rem;
-}
-
-.copyright a {
-    color: var(--darkgreen);
-}
 
 .footer-block .footer-icons {
     margin-top: 35px;
@@ -292,23 +260,20 @@ footer {
     height: 35px;
     cursor: pointer;
     border-radius: 30px;
-
     font-size: 20px;
     color: #000000;
     text-align: center;
     line-height: 35px;
-
     margin-right: 3px;
     margin-bottom: 5px;
 }
+
 
 /* Footer Middle */
 
 .footer-block .footer-middle {
     width: 100%;
 }
-
-
 
 .footer-block .footer-middle i {
     background-color: #33383b;
@@ -345,6 +310,20 @@ footer {
     color: #000000;
     text-decoration: none;
     ;
+}
+
+/* Bottom footer text and link */
+.bottom-footer {
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: .5rem 0;
+    font-size: 14px;
+}
+
+.bottom-footer a {
+    color: #ffffff;
 }
 
 /* ==========================================================================
