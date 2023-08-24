@@ -23,7 +23,7 @@ body {
 header {
     background-color: #000000;
     color: #ffffff;
-    padding: 0 1rem;
+    padding: 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -40,7 +40,8 @@ header a {
 h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 170%;
 
 }
 
@@ -223,16 +224,23 @@ footer {
     padding-top: 10px;
 }
 
+
+
 .footer-block {
     text-align: left;
     padding: 2rem 0;
     font-size: 1rem;
     max-width: 1600px;
     margin: 0 auto;
+    padding: 60px 75px 45px 75px;
 }
 
 .footer-block h3 {
     font-size: 1.5rem;
+}
+
+.footer-block h4 {
+    padding-bottom: 20px;
 }
 
 .footer-block img.maps {
@@ -243,6 +251,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .footer-links ul {
@@ -274,7 +283,7 @@ footer {
 }
 
 .footer-block .footer-icons {
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .footer-block .footer-icons a {
@@ -282,11 +291,10 @@ footer {
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
+    border-radius: 30px;
 
     font-size: 20px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     line-height: 35px;
 
@@ -299,6 +307,8 @@ footer {
 .footer-block .footer-middle {
     width: 100%;
 }
+
+
 
 .footer-block .footer-middle i {
     background-color: #33383b;
@@ -332,7 +342,7 @@ footer {
 }
 
 .footer-block .footer-middle p a {
-    color: #067ea0;
+    color: #000000;
     text-decoration: none;
     ;
 }
@@ -367,7 +377,7 @@ footer {
     }
 
     #logo {
-        font-size: 120%;
+        font-size: 140%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -389,8 +399,11 @@ footer {
     /* desktop footer */
     .footer-block {
         display: grid;
-        align-items: center;
         grid-template-columns: repeat(3, 1fr);
-        padding: 20px;
+        padding: 60px 75px 45px 75px;
+    }
+
+    .footer-logo {
+        width: 80%;
     }
 }
