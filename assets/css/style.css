@@ -27,7 +27,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -89,12 +88,13 @@ main {
     background-color: #ffffff;
     /* Make main element take up any enough space to push footer down */
     flex: 1 0 auto;
-    margin-top: 100px;
+
 }
 
 .container {
     max-width: 1600px;
-    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 156px;
 }
 
 section.headings {
@@ -152,7 +152,7 @@ section.headings {
 #contact-banner-text>h2,
 #contact-banner-text>p {
     color: #ffffff;
-    padding: 10px;
+
 }
 
 /* Form */
@@ -182,14 +182,16 @@ section.headings {
     border-radius: 2px;
 
     padding: 1.6rem 2rem;
-    background-color: transparent;
+
     border: 0.1rem solid #d1d1d1;
+    font-size: inherit;
 }
 
 
 .contact-textarea {
     resize: none;
     height: 20rem;
+    font-family: inherit;
 }
 
 
@@ -373,7 +375,6 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 100px;
     }
 
 

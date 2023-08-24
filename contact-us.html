@@ -72,11 +72,7 @@
         </div>
       </section>
       <section id="contact">
-        <form
-          id="contact-form"
-          method="POST"
-          action="https://formdump.codeinstitute.net"
-        >
+        <form action="thank-you.html" method="GET" id="contact-form">
           <label for="first_name"
             >First Name <span class="color-imp">*</span></label
           >
@@ -94,7 +90,6 @@
             name="last_name"
             id="last_name"
             class="text-input"
-            required
           />
           <br />
           <label for="email_address"
@@ -111,8 +106,9 @@
           <label for="message">Message <span class="color-imp">*</span></label>
           <textarea
             name="message"
-            id="message-2"
+            id="message"
             class="contact-textarea text-input"
+            required
           ></textarea>
 
           <br />
