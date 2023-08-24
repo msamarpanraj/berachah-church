@@ -89,7 +89,14 @@ main {
     background-color: #ffffff;
     /* Make main element take up any enough space to push footer down */
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 0px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/main-hero-image.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -259,7 +266,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 80px;
+        margin-top: 0px;
     }
 
 
