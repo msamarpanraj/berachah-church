@@ -89,7 +89,17 @@ main {
     background-color: #ffffff;
     /* Make main element take up any enough space to push footer down */
     flex: 1 0 auto;
-    margin-top: 0px;
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+section.headings {
+    padding: 2rem;
+    text-align: center;
 }
 
 /* Hero section */
@@ -118,55 +128,82 @@ main {
     padding: 10px;
 }
 
+/* Contact Page Banner */
+#contact-banner {
+    height: 350px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/images/contact-us-page-image.jpg") no-repeat top center/cover;
+    position: relative;
+}
+
+#contact-banner-text {
+
+    font-size: 130%;
+    position: relative;
+
+    margin: 0;
+
+    top: 50%;
+    -ms-transform: translateY(-50%);
+
+    text-align: center;
+}
+
+#contact-banner-text>h2,
+#contact-banner-text>p {
+    color: #ffffff;
+    padding: 10px;
+}
+
 /* Form */
-#signup {
-    background-image: url("../images/signup-image.webp");
-    background-size: cover;
-    background-position: 75%;
+#contact {
+
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
 
-#signup-form {
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+#contact-form {
+    color: #000000;
+    background-color: #ffffff;
     padding: 30px;
+    margin: 40px 0px 80px;
 }
 
-
-#signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
 
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: #020202;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+
     border-radius: 2px;
-    padding: 0 5px;
+
+    padding: 1.6rem 2rem;
+    background-color: transparent;
+    border: 0.1rem solid #d1d1d1;
 }
 
 
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.contact-textarea {
+    resize: none;
+    height: 20rem;
 }
 
 
-.join-button {
+.submit-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: #000000;
     color: #fafafa;
+}
+
+.color-imp {
+    color: #ff0f03;
 }
 
 /* Footer */
@@ -336,7 +373,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 0px;
+        margin-top: 100px;
     }
 
 
