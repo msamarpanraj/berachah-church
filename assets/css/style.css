@@ -193,7 +193,8 @@ img.social-icons {
 }
 
 /*hambburger icon */
-.menu-icon {
+img.menu-icon {
+    height: auto;
     width: 35px;
     vertical-align: sub;
 }
