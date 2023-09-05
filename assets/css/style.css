@@ -187,7 +187,8 @@ section.headings {
 
 
 /*icons images in footer */
-.social-icons {
+img.social-icons {
+    height: auto;
     width: 20px;
 }
 
