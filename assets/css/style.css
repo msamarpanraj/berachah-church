@@ -185,6 +185,18 @@ section.headings {
     margin:50px;
 }
 
+
+/*icons images in footer */
+.social-icons {
+    width: 20px;
+}
+
+/*hambburger icon */
+.menu-icon {
+    width: 35px;
+    vertical-align: sub;
+}
+
 /* Form styles */
 #contact {
 
@@ -347,9 +359,9 @@ footer {
 
 .footer-block .footer-middle p {
     display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    color: var(--black);
+    vertical-align: bottom;
+    padding: 4px;
+    margin: 8px 2px 0px 0px
 }
 
 
