@@ -62,3 +62,30 @@ The aim of the Berachah Good News Baptist Church Website project is to create an
 
 5. **Contact/Inquiry:** As a new user, I want a hassle-free process to contact the church or inquire about attending services and events.
 
+### Development-Planes
+
+To create a comprehensive website that fulfills the user stories outlined earlier and identifies the functionality of the site.
+
+
+### Strategy
+
+Strategy incorporates user needs as well as . This website will focus on the following target audience:
+
+- **User Roles:**
+  - Current Church Members
+  - New Visitors
+
+- **Demographics:**
+  - All age groups
+  - Residents of Telangana, India
+  - Individuals new to our church or seeking information about our services
+
+The website will provide users with the ability to:
+
+  - Easily access essential information, including:
+  - Details about the church's services and activities
+  - Insights into our church's founders and pastors
+  - What to expect during their first visit
+  - Contact options for inquiries or appointments
+  - Location details of the church
+  - Connect with us on social media platforms
