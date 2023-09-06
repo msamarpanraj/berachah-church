@@ -42,7 +42,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
@@ -64,9 +64,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
-    margin-bottom: 1em;
-}
+
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -94,7 +92,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /* Main content */
@@ -460,11 +458,11 @@ footer {
 @media screen and (max-width: 576px) {
 
     h1{
-        font-size: 120%;
+        font-size: 140%;
     }
 
     main {
-margin-top: 80px;
+margin-top: 67px;
     }
 
     .grid-container {
