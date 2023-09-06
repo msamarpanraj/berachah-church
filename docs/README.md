@@ -1,6 +1,9 @@
 
 ## Project Background:
 
+![Berachah Goodnews Baptist Church Website Mockup Image](assets/images/website screenshot.png)
+
+
 Berachah Good News Baptist Church Website is an online platform designed to offer comprehensive information and resources about the Berachah Good News Baptist Church. This website aims to serve as an informative hub for both the church community and visitors, providing insights into the church's history, beliefs, and founders of the church.
 
 The inspiration behind the Berachah Good News Baptist Church Website stems from the desire to create an accessible and informative online presence for the Berachah Good News Baptist Church. In today's digital age, having an online platform is essential for churches to connect with their congregation and reach out to a broader audience.
