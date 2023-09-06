@@ -89,3 +89,76 @@ The website will provide users with the ability to:
   - Contact options for inquiries or appointments
   - Location details of the church
   - Connect with us on social media platforms
+
+## Features
+
+### Navigation Bar
+- The website features a responsive Navigation Bar that adapts seamlessly to various devices, prioritizing a 'mobile-first' design approach. 
+- On mobile devices, it includes a clickable burger icon with a dropdown menu for easy navigation. 
+- As users transition to tablet and monitor sizes, the burger icon transforms into a traditional navigation bar, offering options to explore the 'Home,' 'About Us,' 'Gallery,' and 'Contact Us' pages.
+- To enhance user experience, the Navigation Bar maintains a logical order of links based on importance. The 'About Us' page, containing crucial content users are most likely to engage with, is strategically positioned ahead of the 'Gallery' and 'Contact Us' links.
+- In line with UX best practices, users can conveniently return to the Home page by clicking the dedicated 'Home' link in the Navigation Bar. This redundancy ensures ease of navigation and accessibility.
+- To provide users with clear visual cues during their site exploration, the active page they are on is highlighted with an underline effect in the Navigation Bar. This visual distinction aids users in orienting themselves within the website.
+
+Mobile navigation bar with burger menu
+
+![Navigation Bar Screenshot](docs/readme-images/mobile-navigation-bar-screenshot.jpg)
+
+Navigation Bar in Desktop view
+
+![Navigation Bar Screenshot](docs/readme-images/navigation-bar-screenshot.jpg)
+
+
+- 
+### Landing Content
+- The landing page shows a visual illustration of a person in a yoga pose along with the large headline and a short paragraph of descriptive text - these elements immediately communicate the intent of the site.
+- There are two CTAs on the landing page - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") links to the "About" page so users can read more about the site's purpose and intent.
+
+### Homepage
+- On the Homepage, users are greeted with three concise paragraphs of text that are accompanied by engaging illustrations. These elements work in tandem to effectively communicate the value of the site to users, providing them with a clear understanding of the benefits that can be gained from utilising the resources available. 
+- Additionally, located at the end of the Homepage, a prominent CTA enables users to seamlessly transition from the Homepage to the Exercises page, where they can begin exploring the available content in more detail.
+
+![Alt text](/assets/img/readme-img/home-page.png "Home page")
+
+### Exercises
+- The site features an Exercises page which is where the main content of the site resides.
+- To help users easily navigate through the available resources, the content is thoughtfully categorised by exercise type. To further enhance the user experience, a compelling combination of imagery and headlines is used to effectively communicate the theme of each video. This not only creates an aesthetically pleasing and visually engaging website but also helps users to quickly identify the content that is most relevant to their individual needs and interests.
+- Located at the bottom of the page, there is a user-friendly Newsletter form that encourages users to subscribe for notifications about new content, once they have explored the existing site offerings. This feature enables users to stay up-to-date with the latest mindfulness, meditation and yoga resources available on the site, making it easier for them to maintain their healthy habits and continue to prioritise their wellbeing.
+- The Newsletter form uses validation to ensure an email address is entered.
+- Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
+
+![Alt text](/assets/img/readme-img/exercises-page.png "Exercises page")
+
+#### Exercises in detail
+- Upon clicking an Exercise card, users are seamlessly directed to a dedicated page that displays the featured video content and a succinct description. This streamlined user flow ensures that individuals can easily access the resources they need, while also providing them with the necessary context to make informed decisions about which content is most relevant to their needs. 
+- To enhance the user experience even further, a convenient Back button is prominently featured on the page, allowing users to effortlessly navigate back to the main Exercises page.
+
+![Alt text](/assets/img/readme-img/exercise-video.png "Exercise content")
+
+### About
+- The site has an About page that describes the motivation and inspiration behind its creation, providing users with a deeper understanding of the site's purpose and mission. Here, users can learn more about the origins of the site and the driving forces that led to its establishment, helping them to connect with the content on a more personal level.
+- There are two CTAs in the landing section - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") scrolls down the page and brings users straight to the content so they can read more about the site's purpose and intent.
+
+![Alt text](/assets/img/readme-img/about-page.png "About page")
+
+### Contact
+- The site features a user-friendly contact form that is both intuitive and straightforward, making it simple for individuals to submit their inquiries without being bogged down by having to enter unnecessary details. 
+- The form uses validation to ensure all input fields are complete and data is valid.
+- Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
+
+![Alt text](/assets/img/readme-img/contact-page.png "Contact page")
+
+### Footer
+- Located in the footer section, users can easily find social media links to the site's official Instagram, Facebook, and Twitter pages. This convenient feature not only allows users to stay up-to-date with the latest news and updates from the site, but also enables them to engage with other like-minded individuals who share a common interest in mindfulness, meditation, and yoga practices.
+
+### Responsiveness
+- The site was designed to be responsive and function on a range of screen sizes from 320px wide and above.
+- The site content is contained within a container of the lesser of 80vw / 1440px to ensure the site is easily readable on large screen sizes.
+
+### Future Features
+There are a number of features that would improve the User Experience that I would like to implement in the future:
+- Signup/Login functionality with user accounts would enable users to save content they like and track their activity.
+- User generated content would allow users to contribute to the bliss community.
+- Comments and reviews would allow users to engage with the content and provide recommendations to other users.
+
+___
