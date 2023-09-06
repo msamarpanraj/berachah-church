@@ -40,3 +40,25 @@ The aim of the Berachah Good News Baptist Church Website project is to create an
 
 [Back to top ⇧]
 
+## User Stories
+
+### Current User Goals
+
+1. **Contact Information:** As a current user, I want to easily find contact information for the church to inquire about upcoming events or services.
+
+2. **Efficient Navigation:** As a current user, I want to navigate the website efficiently and access specific information about the church's history and beliefs.
+
+3. **Content Accessibility:** As a current user, I want a straightforward way to access content I've previously viewed on the website.
+
+### New User Goals
+
+1. **Intuitive Navigation:** As a new user, I want to intuitively navigate the entire website, making it easy to explore and discover relevant information.
+
+2. **Understanding Purpose:** As a new user, I want to quickly grasp the primary purpose, doctrinal statements and founders of Berachah Good News Baptist Church through clear and concise content.
+
+3. **Relevant Information:** As a new user, I expect information to be readily available and relevant, helping me understand the church's background, timings, and values.
+
+4. **Appealing Visuals:** As a new user, I appreciate attractive visuals and a color scheme that complements the website's content and enhances the overall experience.
+
+5. **Contact/Inquiry:** As a new user, I want a hassle-free process to contact the church or inquire about attending services and events.
+
