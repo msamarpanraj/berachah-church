@@ -239,44 +239,10 @@ section.headings {
 }
 
 /* Contact Page Banner */
-#contact-banner {
-    height: 350px;
-    width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/contact-us-page-banner-image.webp") no-repeat top center/cover;
-}
 
-#contact-banner-text {
-    font-size: 130%;
-    position: relative;
-    margin: 0;
-    top: 43%;
-    text-align: center;
-}
-
-#contact-banner-text h2 {
-    color: #ffffff;
-
-}
 
 /* About Page Banner */
-#about-banner {
-    height: 350px;
-    width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/mass-in-church.webp") no-repeat top center/cover;
-}
 
-#about-banner-text {
-    font-size: 130%;
-    position: relative;
-    margin: 0;
-    top: 43%;
-    text-align: center;
-}
-
-#contact-banner-text h2 {
-    color: #ffffff;
-
-}
 
 /*404 page*/
 .space {
