@@ -109,6 +109,56 @@ main {
     margin-bottom: 156px;
 }
 
+.about-container {
+   text-align:center;
+   padding:50px;
+}
+
+.about-container h3 {
+   text-align:center;
+   padding:2px;
+}
+
+.about-container i {
+   color:var(--gold);
+}
+
+.about-container p {
+   padding-top:15px;
+}
+
+ .ncontainer {
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 50px;
+        }
+        
+        .nsection {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        
+        .image-container {
+            flex-basis: 30%;
+        }
+        
+        .image-container img{
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .text-container {
+            flex-basis: 70%;
+            padding-left: 30px;
+        }
+        
+       
+
+
+
+
 section.headings {
     padding: 2rem;
     text-align: center;
@@ -194,7 +244,7 @@ img.social-icons {
 
 /*hambburger icon */
 img.menu-icon {
-    height: auto;
+    height: 35px;
     width: 35px;
     vertical-align: sub;
 }
@@ -410,6 +460,22 @@ footer {
         margin: 10px 4px;
         vertical-align: middle;
     }
+
+    .nsection{
+               flex-direction :column ;
+           }
+
+           .image-container,
+           .text-container{
+               flex-basis :100% ;
+               padding-left :0 ;
+               margin-bottom :20px ;
+           }
+
+           .image-container img {
+               max-width :100% ;
+               height:auto ;
+           }
 }
 
 /* Media query: large or landscape phones (576px and up) */
