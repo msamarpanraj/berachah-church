@@ -110,6 +110,9 @@ Navigation Bar in Desktop view
 
 ![Navigation Bar Screenshot](docs/readme-images/navigation-bar-screenshot.jpg)
 
+### Accessibility
+
+
 ### Validator Testing
 
 ## HTML
@@ -243,7 +246,7 @@ During development, the following Git commands were utilized to manage code upda
 - [W3Schools](https://www.w3schools.com/)
 - [Youtube](https://youtube.com)
 
-The Hamburger Menu, Gallery Code and boilerplate template was take from Love Running v3 project and highly customized to my project needs.
+The Hamburger Menu, Hero section, Gallery Code and boilerplate template was take from Love Running v3 project and highly customized to my project needs.
 
 # Acknowledgements
 
