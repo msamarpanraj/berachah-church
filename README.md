@@ -88,12 +88,27 @@ The website will provide users with the ability to:
   - Details about the church's services and activities
   - Insights into our church's founders and pastors
   - What to expect during their first visit
-  - Contact options for inquiries or appointments
+  - Contact options for inquiries 
   - Location details of the church
+  - Google map listing
+  - Gallery with church people pictures
   - Connect with us on social media platforms
 
-## Features
+# User Experience
 
+## Design
+- Wireframes designed in balsamiq.
+- Monochromatic colorr palette with just black and white color combination is chosen along with a gold shade color to highlight some parts of the text on the website. 
+- Poppins font used through out the site because of its simple and modern look. Felt that is apt for this kind of project.
+
+
+### Wireframes
+Homepage
+![Wireframe mobile Screenshot](docs/readme-images/mobile-screen-homepage.png)
+![Wireframe desktop Screenshot](docs/readme-images/desktop-screen-homepage.png)
+
+## Features
+## Site-wide
 ### Navigation Bar
 - The website features a responsive Navigation Bar that adapts seamlessly to various devices, prioritizing a 'mobile-first' design approach. 
 - On mobile devices, it includes a clickable burger icon with a dropdown menu for easy navigation. 
@@ -110,10 +125,16 @@ Navigation Bar in Desktop view
 
 ![Navigation Bar Screenshot](docs/readme-images/navigation-bar-screenshot.jpg)
 
+### Footer
 
-### Wireframes
-![Wireframe mobile Screenshot](docs/readme-images/mobile-screen-homepage.png)
-![Wireframe desktop Screenshot](docs/readme-images/desktop-screen-homepage.png)
+Footer mobile view
+
+![Footer Mobile Screenshot](docs/readme-images/screenshot-footer-mobile.jpg)
+
+Footer Desktop view
+
+![Footer Desktop Screenshot](docs/readme-images/screenshot-footer.jpg)
+
 
 ## Technology
 
