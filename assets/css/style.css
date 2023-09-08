@@ -700,60 +700,59 @@ img.social-icons {
 }
 
 
-/* Media query for different screens: tablets and larger (768px and up) */
+/* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Footer */
-    .footer-container {
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-    }
+    /* General Styles */
 
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
 
-    .footer-item {
-        margin: 1rem 0 1rem;
-        width: 80%;
-    }
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
 
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+ /* Header */
+ nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
 
-    .active {
-        border-bottom: 1px solid var(--active);
-    }
+.active {
+    border-bottom: 1px solid var(--active);
+}
 
-    #menu {
-        display: flex;
-    }
+#menu {
+    display: flex;
+}
 
-    #menu>li {
-        padding-left: 1.5rem;
-    }
+#menu>li {
+    padding-left: 1.5rem;
+}
 
-    #menu>li {
-        margin-bottom: 0px;
-    }
+#menu>li {
+    margin-bottom: 0px;
+}
 
-    #menu a:hover {
-        border-bottom: 1px solid var(--hover);
-    }
+#menu a:hover {
+    border-bottom: 1px solid var(--hover);
+}
 
-    .nav-toggle-label {
-        display: none;
-    }
+.nav-toggle-label {
+    display: none;
+}
 
-    #logo {
-        font-size: 150%;
-        line-height: 35px;
-        margin: 0 0.5rem;
-    }
+#logo {
+    font-size: 150%;
+    line-height: 35px;
+    margin: 0 0.5rem;
+}
 
 /* Grid Styles */
 
@@ -772,27 +771,29 @@ img.social-icons {
     width: 50px;
 }
 
-/* General Styles */
-
-h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-p {
-    font-size: 16px;
-    margin: 5px 0;
-}
-
 /* Contact Form styles */
 #contact {
     padding: 0 100px;
 }
 
-    /* Gallery page styles */
+/* Gallery page styles */
     #photos {
         column-count: 3;
     }
 
+    /* Footer */
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+
+    .footer-item {
+        margin: 1rem 0 1rem;
+        width: 80%;
+    }
+
+   
 
 }
