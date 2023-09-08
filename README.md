@@ -219,6 +219,73 @@ No errors or warnings found when tested with [W3C CSS Validator](https://jigsaw.
 - **Screenshot:**
   ![CSS Validation Screenshot](docs/readme-images/testing/screenshot-w3-css-validator-report-with-zero-errors.png)
 
+### Manual testing
+
+#### Responsiveness of features tested using Chrome DevTools
+
+
+I have conducted comprehensive responsiveness testing on all pages of the website to ensure compatibility with screen sizes ranging from 320px and upwards. The website was designed and developed by following the mobile first design approach as taught in the love running proejct. 
+The respnosive testing process adhered to the WCAG 2.1 Reflow criteria for responsive design and was performed on popular web browsers, including Chrome, Edge, Firefox, and Opera. Each and every element on the site is full responsive, including contact forms, google map which is embedded on contact page, gallery. I have used grid and as well as flexbox css to develop the mobile first responsive design. 
+
+Testing Procedure:
+
+- To assess responsiveness, the following steps were followed:
+
+- Open your preferred web browser and navigate to the Tacos Travels website.
+
+- Access the developer tools by right-clicking on the web page and selecting "Inspect" or using the keyboard shortcut.
+
+- In the developer tools panel, switch to the responsive view mode.
+
+- Decrease the width to 320px.
+
+- Set the zoom level to 50%.
+
+- Click and drag the responsive window to its maximum width.
+
+Expected Results:
+
+- The expected outcomes of the responsiveness test include:
+
+- The website should display and function seamlessly on all screen sizes.
+- No images should appear pixelated or stretched, maintaining high-quality visuals.
+- Horizontal scrolling should not be necessary, ensuring a smooth user experience.
+- Elements within the website's layout should not overlap, maintaining a clean and organized presentation.
+- This thorough testing process ensures that the website remains accessible and user-friendly across various screen sizes and browsers, enhancing the overall user experience.
+
+Actual:
+
+- Website behaved as expected and the responsive layout worked on all screen sizes.
+- 
+- I also consistently tested the look and responsiveness down to 320px throughout development
+
+- All features passed responsiveness testing and looked good on all mentioned devices
+
+- See responsive feature testing results in the screenshot below
+ 
+- Contact form is validated by submitted with emty fiends and it didnt work as well as only when email is given in the email field the form works. 
+  
+- Form redirected to thank you page as expected
+
+**responsiveness**|**index**|**about**|**gallery**|**contact**
+:-----:|:-----:|:-----:|:-----:|:-----:
+nav bar|pass|pass|pass|pass
+hero image|pass|na|na|na
+covertext|pass|na|na|na
+about pastor image|pass|na|na|na
+about text|pass|na|na|na
+timing grid section|pass|na|na|na
+top header sub heading|na|pass|pass|pass
+sections in about page|na|pass|na|na
+gallery|na|na|pass|na
+images|pass|na|pass|na
+sub header text on all pages|na|pass|pass|pass
+contact form|na|na|na|pass
+map|na|na|na|pass
+footer|pass|pass|pass|pass
+footer icons|pass|pass|pass|pass
+grid icons|na|na|na|pass
+
 
 ### Fixed bugs
 
@@ -235,6 +302,8 @@ Many bugs and errors were fixed during the process of development. Mentioning a 
 ### Unfixed bugs
 
 No unfixed bugs
+
+
 
 ### Supported screens and browsers
 
