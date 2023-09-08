@@ -671,15 +671,6 @@ img.social-icons {
 
 
 
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-    .grid-item {
-        padding: 20px;
-    }
-    
-
     .nsection {
         flex-direction: column;
     }
