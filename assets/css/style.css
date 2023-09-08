@@ -10,19 +10,16 @@
 
 :root {
     /* color variables */
-    --highlight-color: #ff5f33;
-    --light-dark: #262626;
     --black: #000000;
     --white: #ffffff;
     --light-ash: #d1d1d1;
-    --red: #ff0f03;
-    --gold: #926E02;
-    --brown: #5d5d5d;
+    --red: #A62707;
     --hover: #e6d9d9;
-    --active: #e6d9d9;
-    --dark-gold: #926E02;
-    --light-gold: #FFF9F0;
-    --grey: #3D3D3D;
+    --active: #616161;
+    --dark-gold: #926e02;
+    --light-gold: #fff9f0;
+    --grey: #3d3d3d;
+
 }
 
 
@@ -41,7 +38,7 @@ body {
    Styles for Header
    ==================================================== */
 
-   header {
+header {
     background-color: var(--black);
     color: var(--white);
     padding: 1rem;
@@ -112,7 +109,7 @@ nav {
    Base styles
    ==================================================== */
 
-   h1 {
+h1 {
 
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -142,7 +139,7 @@ a:hover {
 
 /* Main content */
 main {
-    background-color: #ffffff;
+    background-color: var(--white);
     /* Make main element take up any enough space to push footer down */
     flex: 1 0 auto;
     margin-top: 67px;
@@ -159,17 +156,17 @@ main {
 .div-container {
     text-align: center;
     padding: 50px;
-    
+
 }
 
 .div-container h3 {
     text-align: center;
     padding: 2px;
-    font-size:150%;
+    font-size: 150%;
 }
 
 .div-container i {
-    color: var(--gold);
+    color: var(--dark-gold);
 }
 
 .div-container p {
@@ -204,7 +201,7 @@ main {
 }
 
 .text-container h3 {
-    font-size:150%;
+    font-size: 150%;
 }
 
 
@@ -224,7 +221,7 @@ span {
 
 .bend {
     font-style: italic;
-    color: var(--gold);
+    color: var(--dark-gold);
 }
 
 /* Hero section */
@@ -249,7 +246,7 @@ span {
 
 #cover-text>h2,
 #cover-text>p {
-    color: #ffffff;
+    color: var(--white);
     padding: 10px;
     font-size: 22px;
 }
@@ -257,9 +254,6 @@ span {
 div#cover-text h2 {
     font-size: 30px;
 }
-
-
-
 
 /*404 page*/
 .space {
@@ -269,7 +263,6 @@ div#cover-text h2 {
 .headings h2 {
     font-size: 250%;
 }
-
 
 
 /* Top contain to add on about us, gallery and contact pages */
@@ -319,7 +312,7 @@ div#cover-text h2 {
 }
 
 .grid-item a {
-    color: #000000;
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -349,7 +342,7 @@ div#cover-text h2 {
     margin: 5px 0 20px 0;
     border-radius: 2px;
     padding: 1.6rem 2rem;
-    border: 0.1rem solid #d1d1d1;
+    border: 0.1rem solid var(--light-ash);
     font-size: inherit;
 }
 
@@ -383,7 +376,7 @@ a.button {
 }
 
 .color-imp {
-    color: #ac0b02;
+    color: var(--red);
 }
 
 /* Google Maps Styles*/
@@ -403,148 +396,22 @@ a.button {
 #photos img {
     width: 100%;
     line-height: 1em;
-    padding:5px;
-    height:auto;
+    padding: 5px;
+    height: auto;
 }
 
 #photos {
     line-height: 0;
-    padding:5px;
+    padding: 5px;
 }
 
 
-
-
-/** Old Footer Styles
-
-footer {
-    bottom: 0;
-    width: 100%;
-    color: #000000;
-    border-top: solid;
-    border-color: #eee;
-
-}
-
-.footer-block {
-    text-align: left;
-    padding: 2rem 2rem;
-    font-size: 1rem;
-    max-width: 1600px;
-    margin: 0 auto;
-
-}
-
-.footer-block h3 {
-    font-size: 1.5rem;
-}
-
-.footer-block h4 {
-    padding-bottom: 10px;
-}
-
-.footer-links ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.footer-links li {
-    margin: 0.5rem 0 1rem;
-}
-
-.footer-link {
-    color: var(--black);
-    text-decoration: none;
-}
-
-
-.footer-block .footer-icons {
-    margin-top: 15px;
-}
-
-.footer-block .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    border-radius: 30px;
-    font-size: 20px;
-    color: var(--black);
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-.footer-about {
-    color: var(--black);
-    padding-top: 10px;
-}
-
-
-.footer-column {
-    margin: 1rem 0 1rem;
-    width: 100%;
-    padding: 0;
-}
- */
-/* Footer Middle 
-
-.footer-block .footer-middle {
-    width: 100%;
-}
-
-
-.footer-block .footer-middle i {
-    background-color: var(--black);
-    color: var(--white);
-    font-size: 14px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 24px;
-    margin: 10px 5px;
-    vertical-align: middle;
-}
-
-
-.footer-block .footer-middle p {
-    display: inline-block;
-    vertical-align: bottom;
-    padding: 4px;
-    margin: 8px 2px 0px 0px
-}
-
-
-.footer-block .footer-middle p a {
-    color: var(--black);
-    text-decoration: none;
-    ;
-}
-*/
-/* Bottom footer text and link 
-.bottom-footer {
-    text-align: center;
-    background: var(--black);
-    color: #ffffff;
-    margin: 0;
-    padding: .5rem 0;
-    font-size: 14px;
-}
-
-.bottom-footer a {
-    color: var(--white);
-}
-
-*/
 
 /* ====================================================
    Footer Styles
    ==================================================== */
 
-   footer {
+footer {
     bottom: 0;
     width: 100%;
     color: var(--black);
@@ -699,7 +566,7 @@ img.social-icons {
         column-count: 2;
         column-gap: 0;
     }
-    
+
     .nsection {
         flex-direction: column;
     }
@@ -712,81 +579,82 @@ img.social-icons {
 
     /* General Styles */
 
-h3 {
-    font-size: 18px;
-    margin: 10px 0;
-}
+    h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
 
-p {
-    font-size: 16px;
-    margin: 5px 0;
-}
+    p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
 
- /* Header */
- nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-}
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
-.active {
-    border-bottom: 1px solid var(--active);
-}
+    .active {
+        border-bottom: 1px solid var(--active);
+    }
 
-#menu {
-    display: flex;
-}
+    #menu {
+        display: flex;
+    }
 
-#menu>li {
-    padding-left: 1.5rem;
-}
+    #menu>li {
+        padding-left: 1.5rem;
+    }
 
-#menu>li {
-    margin-bottom: 0px;
-}
+    #menu>li {
+        margin-bottom: 0px;
+    }
 
-#menu a:hover {
-    border-bottom: 1px solid var(--hover);
-}
+    #menu a:hover {
+        border-bottom: 1px solid var(--hover);
+    }
 
-.nav-toggle-label {
-    display: none;
-}
+    .nav-toggle-label {
+        display: none;
+    }
 
-#logo {
-    font-size: 150%;
-    line-height: 35px;
-    margin: 0 0.5rem;
-}
+    #logo {
+        font-size: 150%;
+        line-height: 35px;
+        margin: 0 0.5rem;
+    }
 
-/* Grid Styles */
+    /* Grid Styles */
 
-.grid-container {
-    gap: 50px;
-    margin: 40px;
-}
+    .grid-container {
+        gap: 50px;
+        margin: 40px;
+    }
 
-.grid-item {
-    padding: 50px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
+    .grid-item {
+        padding: 50px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
 
-.grid-item-icon {
-    height: 50px;
-    width: 50px;
-}
+    .grid-item-icon {
+        height: 50px;
+        width: 50px;
+    }
 
-.nsection {
-    flex-direction:row;
-}
-/* Contact Form styles */
-#contact {
-    padding: 0 100px;
-}
+    .nsection {
+        flex-direction: row;
+    }
 
-/* Gallery page styles */
+    /* Contact Form styles */
+    #contact {
+        padding: 0 100px;
+    }
+
+    /* Gallery page styles */
     #photos {
         column-count: 3;
     }
