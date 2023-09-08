@@ -1,202 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Meta tags for search engines -->
-  <meta name="description"
-    content="Contact us for prayer requests and other enquiries.We will try to get in touch with you as soon as possible." />
-  <meta name="keywords" content="berachah, bgbc, independent church, bible believing, bible believers, india, church" />
-  <!-- Stylesheet Link -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!--Page Title-->
-  <title>Contact Us</title>
-  <!--Favicon code-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags for search engines -->
+    <meta name="description"
+        content="Contact us for prayer requests and other enquiries.We will try to get in touch with you as soon as possible." />
+    <meta name="keywords"
+        content="berachah, bgbc, independent church, bible believing, bible believers, india, church" />
+    <!-- Stylesheet Link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Page Title-->
+    <title>Contact Us</title>
+    <!--Favicon code-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
 </head>
-
 <body>
-  <!-- credit for header code: love-running-v3 Aug 2023 -->
-  <!-- Header -->
-  <header>
-    <a href="index.html">
-      <h1 id="logo">Berachah Church</h1>
-    </a>
-    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-    <label for="nav-toggle" class="nav-toggle-label">
-      <!-- Used Hamburger SVG image instead of fontawesome icon for faster page load -->
-      <img class="menu-icon" src="assets/images/hamburger-svg.svg" alt="hamburger menu icon">
-    </label>
-    <!--Navigation Menu-->
-    <nav>
-      <ul id="menu">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="about-us.html">About Us</a>
-        </li>
-        <li>
-          <a href="gallery.html">Gallery</a>
-        </li>
-        <li>
-          <a href="contact-us.html" class="active">Contact Us</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
+    <!-- credit for header code: love-running-v3 Aug 2023 -->
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Berachah Church</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <!-- Used Hamburger SVG image instead of fontawesome icon for faster page load -->
+            <img class="menu-icon" src="assets/images/hamburger-svg.svg" alt="hamburger menu icon">
+        </label>
+        <!--Navigation Menu-->
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="contact-us.html" class="active">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <!-- Main content -->
     <main>
-      <!-- Top Section -->
-    <section class="top-container">
-        <div class="top-text">
-            <h2>Contact Us</h2>
-            <p>Fill the contact form to send your prayer requests and other enquiries.</p>
+        <!-- Top Section -->
+        <section class="top-container">
+            <div class="top-text">
+                <h2>Contact Us</h2>
+                <p>Fill the contact form to send your prayer requests and other enquiries.</p>
+            </div>
+        </section>
+        <!-- Contact Form -->
+        <section id="contact">
+            <div class="form">
+                <form action="thank-you.html" method="GET" id="contact-form">
+                    <label for="first_name">First Name <span class="color-imp">*</span></label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required />
+                    <br />
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" />
+                    <br />
+                    <label for="email_address">Email Address <span class="color-imp">*</span></label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required />
+                    <br />
+                    <label for="message">Message <span class="color-imp">*</span></label>
+                    <textarea name="message" id="message" class="contact-textarea text-input" required></textarea>
+
+                    <br />
+                    <button type="submit" class="button" aria-label="submit contact form">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Contact Icons -->
+        <div class="grid-container">
+            <div class="grid-item">
+                <img class="grid-item-icon" src="assets/images/maps-svg.svg" alt="map icon">
+                <h3>Address</h3>
+                <p>Garepally, Telangana, India</p>
+            </div>
+            <div class="grid-item">
+                <img class="grid-item-icon" src="assets/images/call-button-svg.svg" alt="call button icon">
+                <h3>Phone</h3>
+                <a href="tel:919573948424">
+                    <p>+91 9573948424</p>
+                </a>
+            </div>
+            <div class="grid-item">
+                <img class="grid-item-icon" src="assets/images/mail-svg.svg" alt="email icon">
+                <h3>Email</h3>
+                <a href="mailto:contact@bgbcindia.org">
+                    <p>contact@bgbcindia.org</p>
+                </a>
+            </div>
         </div>
-  </section>
-
-  <!-- Contact Form -->
-<section id="contact">
-    <div class="form">
-      <form action="thank-you.html" method="GET" id="contact-form">
-      <label for="first_name"
-        >First Name <span class="color-imp">*</span></label
-      >
-      <input
-        type="text"
-        name="first_name"
-        id="first_name"
-        class="text-input"
-        required
-      />
-      <br />
-      <label for="last_name">Last Name</label>
-      <input
-        type="text"
-        name="last_name"
-        id="last_name"
-        class="text-input"
-      />
-      <br />
-      <label for="email_address"
-        >Email Address <span class="color-imp">*</span></label
-      >
-      <input
-        type="email"
-        name="email_address"
-        id="email_address"
-        class="text-input"
-        required
-      />
-      <br />
-      <label for="message">Message <span class="color-imp">*</span></label>
-      <textarea
-        name="message"
-        id="message"
-        class="contact-textarea text-input"
-        required
-      ></textarea>
-  
-      <br />
-      <button type="submit" class="button" aria-label="submit contact form">Submit</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Contact Icons -->
-<div class="grid-container">
-    <div class="grid-item">
-      <img class="grid-item-icon" src="assets/images/maps-svg.svg" alt="map icon">
-      <h3>Address</h3>
-      <p>Garepally, Telangana, India</p>
-    </div>
-    <div class="grid-item">
-      <img class="grid-item-icon" src="assets/images/call-button-svg.svg" alt="call button icon">
-      <h3>Phone</h3>
-      <a href="tel:919573948424"><p>+91 9573948424</p></a>
-    </div>
-    <div class="grid-item">
-      <img class="grid-item-icon" src="assets/images/mail-svg.svg" alt="email icon">
-      <h3>Email</h3>
-      <a href="mailto:contact@bgbcindia.org"><p>contact@bgbcindia.org</p></a>
-    </div>
-  </div>
-
-  <!-- Google Maps embed -->
-<div class="map-container">
-    <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60494.624899519426!2d79.945522!3d18.622935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a32fc983d7ac2db%3A0x4b466c15cf508d8c!2sBerachah%20Goodnews%20Baptist%20church!5e0!3m2!1sen!2sin!4v1694156982474!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    
+        <!-- Google Maps embed -->
+        <div class="map-container">
+            <iframe class="map-embed"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60494.624899519426!2d79.945522!3d18.622935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a32fc983d7ac2db%3A0x4b466c15cf508d8c!2sBerachah%20Goodnews%20Baptist%20church!5e0!3m2!1sen!2sin!4v1694156982474!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </main>
-
     <!-- Footer -->
     <footer>
         <div class="footer-container">
-          <div class="footer-item">
-            <h4>About Us</h4>
-            <p> Berachah Goodnews Baptist Church, BGBC is an Independent Bible Believing Baptist Church. </p>
-            <div class="footer-icons">
-              <a href="https://www.facebook.com" target="_blank" aria-label="open facebook link in new tab">
-                <img class="social-icons" src="assets/images/facebook-svg.svg" alt="facebook icon">
-              </a>
-              <a href="https://twitter.com" target="_blank" aria-label="open twitter link in new tab">
-                <img class="social-icons" src="assets/images/twitter-svg.svg" alt="twitter icon">
-              </a>
-              <a href="https://www.instagram.com" target="_blank" aria-label="open instagram link in new tab">
-                <img class="social-icons" src="assets/images/instagram-svg.svg" alt="instagram icon">
-              </a>
+            <div class="footer-item">
+                <h4>About Us</h4>
+                <p> Berachah Goodnews Baptist Church, BGBC is an Independent Bible Believing Baptist Church. </p>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com" target="_blank" aria-label="open facebook link in new tab">
+                        <img class="social-icons" src="assets/images/facebook-svg.svg" alt="facebook icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="open twitter link in new tab">
+                        <img class="social-icons" src="assets/images/twitter-svg.svg" alt="twitter icon">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="open instagram link in new tab">
+                        <img class="social-icons" src="assets/images/instagram-svg.svg" alt="instagram icon">
+                    </a>
+                </div>
             </div>
-          </div>
-          <div class="footer-item footer-middle">
-            <h4>Contact Us</h4>
-            <div>
-              <img class="social-icons" src="assets/images/maps-svg.svg" alt="map icon">
-              <p>Garepalle, Telangana, India</p>
+            <div class="footer-item footer-middle">
+                <h4>Contact Us</h4>
+                <div>
+                    <img class="social-icons" src="assets/images/maps-svg.svg" alt="map icon">
+                    <p>Garepalle, Telangana, India</p>
+                </div>
+                <div>
+                    <img class="social-icons" src="assets/images/call-button-svg.svg" alt="call button icon">
+                    <p>
+                        <a href="tel:+919573948424">+91 9573948424</a>
+                    </p>
+                </div>
+                <div>
+                    <img class="social-icons" src="assets/images/mail-svg.svg" alt="email icon">
+                    <p>
+                        <a href="mailto:contact@bgbcindia.org">contact@bgbcindia.org</a>
+                    </p>
+                </div>
             </div>
-            <div>
-              <img class="social-icons" src="assets/images/call-button-svg.svg" alt="call button icon">
-              <p>
-                <a href="tel:+91 9573948424">+91 9573948424</a>
-              </p>
+            <div class="footer-item">
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="footer-link" aria-label="link to home page">Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" class="footer-link" aria-label="link to about us page">About</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html" class="footer-link" aria-label="link to gallery page">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="contact-us.html" class="footer-link" aria-label="link to Contact page">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div>
-              <img class="social-icons" src="assets/images/mail-svg.svg" alt="email icon">
-              <p>
-                <a href="mailto:contact@bgbcindia.org">contact@bgbcindia.org</a>
-              </p>
-            </div>
-          </div>
-          <div class="footer-item">
-            <div class="footer-links">
-              <h4>Quick Links</h4>
-              <ul>
-                <li>
-                  <a href="index.html" class="footer-link" aria-label="link to home page">Home</a>
-                </li>
-                <li>
-                  <a href="about-us.html" class="footer-link" aria-label="link to about us page">About</a>
-                </li>
-                <li>
-                  <a href="gallery.html" class="footer-link" aria-label="link to gallery page">Gallery</a>
-                </li>
-                <li>
-                  <a href="contact-us.html" class="footer-link" aria-label="link to Contact page">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
         <p class="bottom-footer"> © 2023 Samarpan Raj - This website was made for educational purposes only.
         </p>
-      </footer>
-    
-    
-    
-    </body>
-    
-    </html>
+    </footer>
+</body>
+</html>
