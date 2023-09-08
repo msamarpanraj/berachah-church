@@ -246,7 +246,13 @@ section.headings {
 #cover-text>p {
     color: #ffffff;
     padding: 10px;
+    font-size: 22px;
 }
+
+div#cover-text h2 {
+    font-size: 30px;
+}
+
 
 
 
