@@ -266,6 +266,10 @@ div#cover-text h2 {
     margin: 40px 0px 40px 0px;
 }
 
+.headings h2 {
+    font-size: 250%;
+}
+
 
 
 /* Top contain to add on about us, gallery and contact pages */
