@@ -290,6 +290,11 @@ div#cover-text h2 {
     font-size: 24px;
 }
 
+.top-text h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
 .top-text p {
     color: var(--grey);
 }
@@ -399,6 +404,7 @@ a.button {
     width: 100%;
     line-height: 1em;
     padding:5px;
+    height:auto;
 }
 
 #photos {
