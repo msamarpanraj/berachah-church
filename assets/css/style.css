@@ -194,7 +194,7 @@ main {
 }
 
 .image-container img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -666,10 +666,8 @@ img.social-icons {
    Media queries
    ========================================================================== */
 
-/* Media query: small screen mobiles (576px and up) */
+/* Media query: small screen mobiles (upto 576px) */
 @media screen and (max-width: 576px) {
-
-
 
     .nsection {
         flex-direction: column;
@@ -696,6 +694,9 @@ img.social-icons {
         column-gap: 0;
     }
     
+    .nsection {
+        flex-direction: column;
+    }
 
 }
 
@@ -771,6 +772,9 @@ p {
     width: 50px;
 }
 
+.nsection {
+    flex-direction:row;
+}
 /* Contact Form styles */
 #contact {
     padding: 0 100px;
@@ -794,6 +798,6 @@ p {
         width: 80%;
     }
 
-   
+
 
 }
