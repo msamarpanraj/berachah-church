@@ -341,7 +341,7 @@ section.headings {
 .button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 15px 27px;
     font-size: 100%;
     background-color: var(--black);
     color: var(--white);
@@ -649,13 +649,7 @@ img.social-icons {
 /* Media query: small screen mobiles (576px and up) */
 @media screen and (max-width: 576px) {
 
-    h1{
-        font-size: 140%;
-    }
 
-    main {
-margin-top: 67px;
-    }
 
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
@@ -665,23 +659,6 @@ margin-top: 67px;
         padding: 20px;
     }
     
-
-    .footer-block {
-        padding: 10px;
-    }
-
-    .footer-block .footer-middle i {
-        background-color: var(--black);
-        color: var(--white);
-        font-size: 13px;
-        width: 27px;
-        height: 27px;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 29px;
-        margin: 10px 4px;
-        vertical-align: middle;
-    }
 
     .nsection {
         flex-direction: column;
@@ -707,13 +684,8 @@ margin-top: 67px;
         column-count: 2;
         column-gap: 0;
     }
-
-
     
 
-    main {
-        margin-top: 72px;
-    }
 }
 
 
