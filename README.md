@@ -110,7 +110,51 @@ Navigation Bar in Desktop view
 
 ![Navigation Bar Screenshot](docs/readme-images/navigation-bar-screenshot.jpg)
 
-### Validator Testing 
+### Validator Testing
+
+## HTML
+## Validator Testing
+
+Thorough validation testing conducted using the W3C validator for all the HTML pages of the project. The results of the testing, along with screenshots for each page, are as follows:
+
+### Index.html
+
+- **Validation Result:** 0 errors
+- **Screenshot:**
+  ![index.html Validation Screenshot](docs/readme-images/testing/screenshot-validator-report-for-homepage-with-zero-errors.png)
+
+### About-us.html
+
+- **Validation Result:** 0 errors
+- **Screenshot:**
+  ![about-us.html Validation Screenshot](docs/readme-images/testing/screenshot-validator-report-for-about-us-page-with-zero-errors.png)
+
+### Gallery.html
+
+- **Validation Result:** 0 errors
+- **Screenshot:**
+  ![gallery.html Validation Screenshot](docs/readme-images/testing/screenshot-validator-report-for-gallery-page-with-zero-errors.png)
+
+### Contact-us.html
+
+- **Validation Result:** 0 errors
+- **Screenshot:**
+  ![contact-us.html Validation Screenshot](docs/readme-images/testing/screenshot-validator-report-for-contact-us-page-with-zero-errors.png)
+
+### Thank you.html
+
+* **Validation Result:** 0 errors
+- **Screenshot:**
+  ![thank-you.html Validation Screenshot](docs/readme-images/testing/screenshot-validator-report-for-thank-you-page-with-zero-errors.png)
+
+### 404.html
+
+* **Validation Result:** 0 errors
+- **Screenshot:**
+  ![404.html Validation Screenshot](docs/readme-images/testing/screenshot-validator-report-for-404-page-with-zero-errors.png)
+...
+
+This ensures that my HTML code adheres to industry standards, as confirmed by the W3C validator, and each page is free from any syntax or markup errors. You can review the screenshots above to see the clean validation reports for each page. A clean validation report indicates that the web pages are well-structured and compatible with various web browsers, contributing to a seamless user experience.
 
 
 ## Deployment
