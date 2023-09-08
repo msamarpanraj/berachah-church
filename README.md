@@ -220,6 +220,38 @@ No errors or warnings found when tested with [W3C CSS Validator](https://jigsaw.
   ![CSS Validation Screenshot](docs/readme-images/testing/screenshot-w3-css-validator-report-with-zero-errors.png)
 
 
+### Fixed bugs
+
+Many bugs and errors were fixed during the process of development. Mentioning a few below.
+
+
+![validator issues](docs/readme-images/validator-issues-of-about-us-page.png)
+![validator issues](docs/readme-images/validator-issues-of-gallery.png)
+![validator issues](docs/readme-images/validator-issues-of-homepage.png)
+![No alt tag](docs/readme-images/no-alt-tag-homepage.png)
+
+
+
+### Unfixed bugs
+
+No unfixed bugs
+
+### Supported screens and browsers
+
+#### Supported Screens
+
+ - iPhone SE, 375px wide. Site developed with mobile first approach so it looks fine even with 320px wide.
+ - iPad Mini, 768px wide
+ - Nest Hub Max, 1280px wide
+
+#### Supported Browsers
+
+ - Chrome
+ - Edge
+ - Firefox
+ - Safari
+ - Opera
+
 
 ## Deployment
 
