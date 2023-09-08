@@ -16,10 +16,16 @@
     --white: #ffffff;
     --light-ash: #d1d1d1;
     --red: #ff0f03;
-    --gold: #BF8F02;
-    --light-gold: #fff8ee;
+    --gold: #926E02;
     --brown: #5d5d5d;
+    --hover: #e6d9d9;
+    --active: #e6d9d9;
+    --dark-gold: #926E02;
+    --light-gold: #FFF9F0;
+    --grey: #3D3D3D;
 }
+
+
 
 /* General styles */
 body {
@@ -27,13 +33,15 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: var(--black);
     font-family: 'Poppins', sans-serif;
 }
 
+/* ====================================================
+   Styles for Header
+   ==================================================== */
 
-/* Header */
-header {
+   header {
     background-color: var(--black);
     color: var(--white);
     padding: 1rem;
@@ -50,34 +58,32 @@ header a {
     color: var(--white);
 }
 
-h1 {
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 170%;
-
-}
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 1px;
     list-style-type: none;
 }
 
-
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
+#menu>li {
+    margin-bottom: 5px;
 }
+
+#logo {
+    font-size: 140%;
+    line-height: 35px;
+    margin: 0 4px 0 4px;
+}
+
 
 /* Navbar with dropdown toggle like style */
 nav {
     position: absolute;
-    background-color: #000000;
+    background-color: var(--black);
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px var(--black);
     display: none;
     top: 100%;
 }
@@ -95,14 +101,58 @@ nav {
     font-size: 1rem;
 }
 
+/* Hambburger icon */
+.menu-icon {
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+
+/* ====================================================
+   Base styles
+   ==================================================== */
+
+   h1 {
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
 /* Main content */
 main {
     background-color: #ffffff;
     /* Make main element take up any enough space to push footer down */
     flex: 1 0 auto;
+    margin-top: 67px;
 
 }
 
+/*  General Container Styles */
 .container {
     max-width: 1600px;
     margin-top: 156px;
@@ -168,19 +218,6 @@ main {
     margin-top: 20px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 50px;
-    margin:40px 0 40px 0;
-    margin-bottom:4-px
-}
-
-.grid-item {
-    padding: 50px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
 
 section.headings {
     padding: 2rem;
@@ -222,18 +259,6 @@ section.headings {
 }
 
 
-/*icons images in footer */
-img.social-icons {
-    height: 20px;
-    width: 20px;
-}
-
-/*hambburger icon */
-img.menu-icon {
-    height: 35px;
-    width: 35px;
-    vertical-align: middle;
-}
 
 /* Top contain to add on about us, gallery and contact pages */
 .top-container {
@@ -694,6 +719,19 @@ margin-top: 67px;
 /* Media query for different screens: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* Footer */
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+
+    .footer-item {
+        margin: 1rem 0 1rem;
+        width: 80%;
+    }
+
     /* Header */
     nav {
         display: block;
@@ -701,6 +739,10 @@ margin-top: 67px;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+    }
+
+    .active {
+        border-bottom: 1px solid var(--active);
     }
 
     #menu {
@@ -711,23 +753,57 @@ margin-top: 67px;
         padding-left: 1.5rem;
     }
 
-   
+    #menu>li {
+        margin-bottom: 0px;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid var(--hover);
+    }
+
     .nav-toggle-label {
         display: none;
     }
 
     #logo {
-        font-size: 139%;
-        line-height: 75px;
+        font-size: 150%;
+        line-height: 35px;
         margin: 0 0.5rem;
     }
 
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 107px;
+/* Grid Styles */
 
-    }
+.grid-container {
+    gap: 50px;
+    margin: 40px;
+}
+
+.grid-item {
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.grid-item-icon {
+    height: 50px;
+    width: 50px;
+}
+
+/* General Styles */
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Contact Form styles */
+#contact {
+    padding: 0 100px;
+}
 
     /* Gallery page styles */
     #photos {
@@ -735,38 +811,5 @@ margin-top: 67px;
     }
 
 
-
-}
-
-/* Large device screens (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #e6d9d9;
-    }
-
-    /* desktop footer */
-    .footer-block {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding: 2rem 4rem;
-    }
-
-    .footer-left {
-        width: 80%;
-    }
-
-    /* Gallery page styles*/
-    #photos {
-        column-count: 3;
-    }
-
-
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 107px;
-
-    }
 
 }
