@@ -178,3 +178,22 @@ During development, the following Git commands were utilized to manage code upda
 - https://www.pexels.com/photo/people-praying-on-gathering-17898885/
 - https://www.pexels.com/photo/selective-focus-photo-of-person-holding-book-2351719/
 - https://www.pexels.com/photo/fashion-man-people-woman-8815215/
+
+## Favicon
+- [Favicon Generator](https://favicon.io)
+
+## Other
+- Colour palette [Paletton](https://paletton.com/)
+- SVG icons: [SVGRepo](svgrepo.com)
+- Fonts: [Google Fonts](https://fonts.google.com/)
+  
+## Educational resources
+- [Learntheweb](https://learntheweb.courses/)
+- [W3Schools](https://www.w3schools.com/)
+- [Youtube](https://youtube.com)
+
+The Hamburger Menu, Gallery Code and boilerplate template was take from Love Running v3 project and highly customized to my project needs.
+
+# Acknowledgements
+
+I successfully finished this project as part of my Portfolio Project 1 submission for the Full Stack Web Developer (eCommerce) Diploma program at the Code Institute. I extend my heartfelt appreciation to my mentors, Dario and Daisy, as well as the entire Code Institute team and the supportive Slack community for their invaluable assistance and encouragement during the course of this project.
