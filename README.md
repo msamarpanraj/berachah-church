@@ -163,3 +163,18 @@ During development, the following Git commands were utilized to manage code upda
 7. Push your changes to the forked repository on GitHub with the "git push" command.
 8. If you intend to contribute your changes back to the original repository, initiate a pull request. You can do this by going to the original repository's page and selecting the "New pull request" button. From there, you can compare your changes to the original repository and request a merge.
 9. You now have a forked copy of the GitHub repository in your account, allowing you to make changes and contribute back to the original repository if desired.
+
+# Credits
+## Images/Content
+
+- https://www.pexels.com/photo/silhouette-of-cross-1343325/
+- https://www.pexels.com/photo/a-woman-in-black-sweater-9577187/
+- https://www.pexels.com/photo/photo-of-man-holding-holy-bible-7468196/
+- https://www.pexels.com/photo/bible-blur-christ-christianity-372326/
+- https://www.pexels.com/photo/people-standing-in-the-church-during-a-ceremony-8270597/
+- https://www.pexels.com/photo/a-group-of-people-singing-during-a-ceremony-16721671/
+- https://www.pexels.com/photo/man-praying-among-people-on-gathering-16618400/
+- https://www.pexels.com/photo/women-praying-in-a-church-17898825/
+- https://www.pexels.com/photo/people-praying-on-gathering-17898885/
+- https://www.pexels.com/photo/selective-focus-photo-of-person-holding-book-2351719/
+- https://www.pexels.com/photo/fashion-man-people-woman-8815215/
