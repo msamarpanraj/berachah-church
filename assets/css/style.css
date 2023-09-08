@@ -138,9 +138,6 @@ a:hover {
 }
 
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
 
 
 /* Main content */
@@ -349,6 +346,10 @@ section.headings {
     background-color: var(--black);
     color: var(--white);
     text-decoration: none;
+}
+
+a.button {
+    color: var(--white);
 }
 
 .button:hover,
