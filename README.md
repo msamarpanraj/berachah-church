@@ -113,9 +113,8 @@ Navigation Bar in Desktop view
 ### Validator Testing
 
 ## HTML
-## Validator Testing
 
-Thorough validation testing conducted using the W3C validator for all the HTML pages of the project. The results of the testing, along with screenshots for each page, are as follows:
+Thorough validation testing conducted using the [W3C validator](https://validator.w3.org/) for all the HTML pages of the project. The results of the testing, along with screenshots for each page, are as follows:
 
 ### Index.html
 
@@ -156,6 +155,11 @@ Thorough validation testing conducted using the W3C validator for all the HTML p
 
 This ensures that my HTML code adheres to industry standards, as confirmed by the W3C validator, and each page is free from any syntax or markup errors. You can review the screenshots above to see the clean validation reports for each page. A clean validation report indicates that the web pages are well-structured and compatible with various web browsers, contributing to a seamless user experience.
 
+## CSS
+No errors or warnings found when tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- **Validation Result:** 0 errors
+- **Screenshot:**
+  ![CSS Validation Screenshot](docs/readme-images/testing/screenshot-w3-css-validator-report-with-zero-errors.png)
 
 ## Deployment
 
