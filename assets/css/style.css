@@ -275,6 +275,11 @@ img.menu-icon {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 12px;
 }
 
+.grid-item a {
+    color: #000000;
+    text-decoration: none;
+}
+
 /* Styles for grid item icon (base styles for mobile) */
 .grid-item-icon {
     height: 30px;
