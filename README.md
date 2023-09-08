@@ -110,6 +110,35 @@ Navigation Bar in Desktop view
 
 ![Navigation Bar Screenshot](docs/readme-images/navigation-bar-screenshot.jpg)
 
+## Technology
+
+### Languages
+
+- HTML
+- CSS
+
+### Frameworks & Tools
+
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Code Anywhere Cloud IDE](https://app.codeanywhere.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [Favicon](https://favicon.io/favicon-generator/#google_vignette)
+- [Paletton](https://paletton.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [W3C Markup Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Google Maps](https://www.google.com/maps)
+- [YouTube](https://www.youtube.com/)
+- [TinyJPG](https://tinyjpg.com/)
+- [Freeconvert JPG to webp](https://www.freeconvert.com/jpg-to-webp)
+- [Wave Accessesibility](https://wave.webaim.org/)
+- [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp)
+- [Svgrepo](https://www.svgrepo.com/)
+- 
 ### Accessibility
 [Wave Accessibility](https://wave.webaim.org/) tool was eery helpful during the developemnt of the website. I was able check for any aid accessibility testing and fix the issues it showed.
 
