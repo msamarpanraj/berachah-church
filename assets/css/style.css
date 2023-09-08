@@ -283,6 +283,7 @@ div#cover-text h2 {
 .top-text h2 {
     color: var(--black);
     margin-bottom: 10px;
+    font-size: 24px;
 }
 
 .top-text p {
