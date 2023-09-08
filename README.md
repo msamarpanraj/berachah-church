@@ -110,6 +110,11 @@ Navigation Bar in Desktop view
 
 ![Navigation Bar Screenshot](docs/readme-images/navigation-bar-screenshot.jpg)
 
+
+### Wireframes
+![Wireframe mobile Screenshot](docs/readme-images/mobile-screen-homepage.png)
+![Wireframe desktop Screenshot](docs/readme-images/desktop-screen-homepage.png)
+
 ## Technology
 
 ### Languages
