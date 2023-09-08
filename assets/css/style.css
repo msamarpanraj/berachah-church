@@ -187,28 +187,6 @@ section.headings {
     text-align: center;
 }
 
-.top-container {
-    height: 200px;
-    width: 100%;
-    background: var(--light-gold);
-}
-
-.top-text {
-    font-size: 19px;
-    position: relative;
-    margin: 0;
-    top: 33%;
-    text-align: center;
-    color: #5d5d5d;
-}
-
-.top-text h2 {
-    color: var(--black);
-}
-
-.top-text p {
-    color: var(--brown);
-}
 
 /* Hero section */
 #hero {
@@ -236,10 +214,6 @@ section.headings {
     padding: 10px;
 }
 
-/* Contact Page Banner */
-
-
-/* About Page Banner */
 
 
 /*404 page*/
@@ -261,23 +235,67 @@ img.menu-icon {
     vertical-align: middle;
 }
 
-/* Form styles */
-#contact {
+/* Top contain to add on about us, gallery and contact pages */
+.top-container {
+    height: 200px;
+    width: 100%;
+    background: var(--light-gold);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
 
-    padding: 20px 10% 0 10%;
+.top-text h2 {
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.top-text p {
+    color: var(--grey);
+}
+
+/* ====================================================
+   Contact Page Styles
+   ==================================================== */
+
+/* Common styles for grid container (base styles for mobile) */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Styles for grid items (base styles for mobile) */
+.grid-item {
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 12px;
+}
+
+/* Styles for grid item icon (base styles for mobile) */
+.grid-item-icon {
+    height: 30px;
+    width: 30px;
+}
+
+/* Contact Form styles */
+#contact {
     flex-grow: 1;
 }
 
 #contact-form {
-    color: #000000;
-    background-color: #ffffff;
+    color: var(--black);
+    background-color: var(--white);
     padding: 30px;
     margin: 40px 0px 80px;
 }
 
 .text-input {
     background: transparent;
-    color: #020202;
+    color: var(--grey);
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -313,7 +331,20 @@ img.menu-icon {
 }
 
 .color-imp {
-    color: #ff0f03;
+    color: #ac0b02;
+}
+
+/* Google Maps Styles*/
+.map-embed {
+    width: 100%;
+    height: 350px;
+}
+
+/* Map container with padding*/
+.map-container {
+    text-align: center;
+    padding: 20px;
+
 }
 
 /* Gallery styles */
