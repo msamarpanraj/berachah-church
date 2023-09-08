@@ -1,4 +1,6 @@
 
+### Live Site URL: https://msamarpanraj.github.io/berachah-church/index.html
+
 ## Project Background:
 
 ![Berachah Goodnews Baptist Church Website Mockup Image](docs/readme-images/website-screenshot.png)
@@ -108,57 +110,56 @@ Navigation Bar in Desktop view
 
 ![Navigation Bar Screenshot](docs/readme-images/navigation-bar-screenshot.jpg)
 
+## Deployment
 
-- 
-### Landing Content
-- The landing page shows a visual illustration of a person in a yoga pose along with the large headline and a short paragraph of descriptive text - these elements immediately communicate the intent of the site.
-- There are two CTAs on the landing page - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") links to the "About" page so users can read more about the site's purpose and intent.
+### Version Control
 
-### Homepage
-- On the Homepage, users are greeted with three concise paragraphs of text that are accompanied by engaging illustrations. These elements work in tandem to effectively communicate the value of the site to users, providing them with a clear understanding of the benefits that can be gained from utilising the resources available. 
-- Additionally, located at the end of the Homepage, a prominent CTA enables users to seamlessly transition from the Homepage to the Exercises page, where they can begin exploring the available content in more detail.
+The site was created using the CodeAnywhere code editor and which was conneced to github. A new workspace is imported to codeanywhere from github repositories and the following is the repository which this project was associated.
+https://github.com/msamarpanraj/berachah-church
 
-![Alt text](/assets/img/readme-img/home-page.png "Home page")
+During development, the following Git commands were utilized to manage code updates:
 
-### Exercises
-- The site features an Exercises page which is where the main content of the site resides.
-- To help users easily navigate through the available resources, the content is thoughtfully categorised by exercise type. To further enhance the user experience, a compelling combination of imagery and headlines is used to effectively communicate the theme of each video. This not only creates an aesthetically pleasing and visually engaging website but also helps users to quickly identify the content that is most relevant to their individual needs and interests.
-- Located at the bottom of the page, there is a user-friendly Newsletter form that encourages users to subscribe for notifications about new content, once they have explored the existing site offerings. This feature enables users to stay up-to-date with the latest mindfulness, meditation and yoga resources available on the site, making it easier for them to maintain their healthy habits and continue to prioritise their wellbeing.
-- The Newsletter form uses validation to ensure an email address is entered.
-- Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
+```git add <file>``` - This command added specific file(s) to the staging area for the next commit.
+```git commit -m “commit message”``` - It was used to commit changes to the local repository, preparing them for the final step.
+```git push``` -  This command pushed all committed code to the remote repository on GitHub.
 
-![Alt text](/assets/img/readme-img/exercises-page.png "Exercises page")
+### Steps to deply website to Github Pages
 
-#### Exercises in detail
-- Upon clicking an Exercise card, users are seamlessly directed to a dedicated page that displays the featured video content and a succinct description. This streamlined user flow ensures that individuals can easily access the resources they need, while also providing them with the necessary context to make informed decisions about which content is most relevant to their needs. 
-- To enhance the user experience even further, a convenient Back button is prominently featured on the page, allowing users to effortlessly navigate back to the main Exercises page.
+### Deploying the Website to GitHub Pages
+- The website was deployed to GitHub Pages using the following steps:
+ - In the GitHub repository, go to the "Settings" tab.
+ - From the left-side menu, select 'Pages.'
+ - In the source section drop-down menu, choose the 'main' branch.
+ - Click 'Save.'
+ - Upon successful publishing, a live link will be displayed in a green banner.
 
-![Alt text](/assets/img/readme-img/exercise-video.png "Exercise content")
 
-### About
-- The site has an About page that describes the motivation and inspiration behind its creation, providing users with a deeper understanding of the site's purpose and mission. Here, users can learn more about the origins of the site and the driving forces that led to its establishment, helping them to connect with the content on a more personal level.
-- There are two CTAs in the landing section - the primary CTA ("Get started") links to the "Exercises" page and enables users to quickly engage with the site's content. The secondary CTA ("Learn more") scrolls down the page and brings users straight to the content so they can read more about the site's purpose and intent.
+### Steps for cloning the repository
 
-![Alt text](/assets/img/readme-img/about-page.png "About page")
+1. Click on the "Code" button near the top right corner of the page.
+2. Copy the HTTPS or SSH URL that appears in the box.
+3. Open your terminal (or Git Bash on Windows) and navigate to the directory where you want to clone the repository.
+4. Type "git clone" followed by a space, and then paste the URL you copied in step 3.
+5. Press enter to run the command. This will clone the repository onto your local machine.
+6. You should now have a local copy of the GitHub repository on your machine.
 
-### Contact
-- The site features a user-friendly contact form that is both intuitive and straightforward, making it simple for individuals to submit their inquiries without being bogged down by having to enter unnecessary details. 
-- The form uses validation to ensure all input fields are complete and data is valid.
-- Once submitted, users receive clear and informative feedback, and are directed to a Thank You page that features a prominent CTA designed to encourage them to continue exploring the site's content on the Exercises page.
+### Cloning the Repository
+1. To clone the repository to your local machine, follow these steps:
+- Click on the "Code" button located near the top right corner of the page.
+- Copy the HTTPS or SSH URL displayed.
+- Open your terminal (or Git Bash on Windows) and navigate to your desired directory.
+- Enter "git clone" followed by a space, and paste the copied URL.
+- Press enter to execute the command, creating a local copy of the GitHub repository.
+2. You now have the GitHub repository cloned to your local machine.
 
-![Alt text](/assets/img/readme-img/contact-page.png "Contact page")
+### Forking the Repository
+1. Fork the repository by following these steps:
 
-### Footer
-- Located in the footer section, users can easily find social media links to the site's official Instagram, Facebook, and Twitter pages. This convenient feature not only allows users to stay up-to-date with the latest news and updates from the site, but also enables them to engage with other like-minded individuals who share a common interest in mindfulness, meditation, and yoga practices.
-
-### Responsiveness
-- The site was designed to be responsive and function on a range of screen sizes from 320px wide and above.
-- The site content is contained within a container of the lesser of 80vw / 1440px to ensure the site is easily readable on large screen sizes.
-
-### Future Features
-There are a number of features that would improve the User Experience that I would like to implement in the future:
-- Signup/Login functionality with user accounts would enable users to save content they like and track their activity.
-- User generated content would allow users to contribute to the bliss community.
-- Comments and reviews would allow users to engage with the content and provide recommendations to other users.
-
-___
+2. Click the "Fork" button found near the top right corner of the page. This duplicates the repository into your GitHub account.
+3. After forking, you will be redirected to your forked repository.
+4. If not already done, clone the forked repository to your local machine, using the instructions mentioned earlier.
+5. Make any desired changes or additions to the code in your local copy of the repository.
+6. Commit your changes to your local repository using the "git commit" command.
+7. Push your changes to the forked repository on GitHub with the "git push" command.
+8. If you intend to contribute your changes back to the original repository, initiate a pull request. You can do this by going to the original repository's page and selecting the "New pull request" button. From there, you can compare your changes to the original repository and request a merge.
+9. You now have a forked copy of the GitHub repository in your account, allowing you to make changes and contribute back to the original repository if desired.
